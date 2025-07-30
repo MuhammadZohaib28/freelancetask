@@ -102,8 +102,8 @@ body {
 
 /* Main Navigation */
 .main-nav {
-  background-color: #f8f9fa;
-  border-bottom: 1px solid #e0e0e0;
+  /* background-color: #f8f9fa; */
+  /* border-bottom: 1px solid #e0e0e0; */
   padding: 5px 0;
 }
 
@@ -222,7 +222,7 @@ body {
 }
 
 .hero-section .border-end {
-  border-right: 1px solid #e0e0e0 !important;
+  border-right: 2px solid #1976d2 !important;
 }
 
 /* What We Do Section */
@@ -870,6 +870,184 @@ body {
   height: 300px;
   border: 1px solid #007dbb;
   background-color: #f8f9fa;
+}
+
+/* Site Footer */
+.site-footer {
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+}
+
+.pre-footer-cta {
+  background-color: #007dbb;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.pre-footer-cta h2 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.pre-footer-cta p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.cta-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cta-wrapper .line {
+  flex-grow: 1;
+  height: 2px;
+  background-color: #ffc107;
+}
+
+.btn-request-quote {
+  background-color: #ff8c00;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0 20px;
+}
+
+.footer-main-content {
+  background-color: #007dbb;
+  padding: 50px 0;
+}
+
+.footer-contact-info h6 {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.footer-contact-info p,
+.footer-contact-info address {
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.social-icons a {
+  color: #ffffff;
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.footer-links h6 {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 2;
+}
+
+.locations-row {
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #004085;
+}
+
+.address-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.address-list p {
+  font-size: 12px;
+  flex-basis: 23%;
+}
+
+.map-us-placeholder img {
+  max-width: 180px;
+}
+
+.footer-bottom-bar {
+  background-color: #004085;
+  padding: 15px 0;
+  font-size: 12px;
+}
+
+.footer-logo {
+  height: 30px;
+  margin-right: 15px;
+}
+
+.footer-bottom-bar a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.contact-info-new h5 {
+  font-weight: 700;
+  font-size: 18px;
+  color: #007dbb;
+  margin-bottom: 10px;
+}
+
+.contact-info-new h5 svg {
+  margin-right: 10px;
+}
+
+.contact-info-new p {
+  font-size: 16px;
+  color: #333;
+}
+
+.contact-info-new a {
+  color: #007dbb;
+  text-decoration: none;
+}
+
+.footer-newsletter-new {
+  padding: 40px 0;
+  text-align: center;
+  background-color: #f8f9fa;
+  margin-top: 40px;
+}
+
+.footer-newsletter-new h4 {
+  font-weight: 700;
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.newsletter-form-new {
+  display: flex;
+  justify-content: center;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.newsletter-form-new .form-control {
+  border-radius: 0;
+  text-align: center;
+}
+
+.newsletter-form-new .btn {
+  background-color: #d97706;
+  color: #ffffff;
+  border-radius: 0;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 600;
 }
 
 .footer {
