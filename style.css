@@ -1,0 +1,500 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #333;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Top Bar */
+.top-bar {
+  /* background-color: #ffc107; */
+  padding: 5px 0;
+  font-size: 12px;
+}
+
+.top-bar small {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  color: #000000;
+}
+
+.top-bar a {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+/* Main Header */
+.main-header {
+  background-color: #fff;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 10px 0 !important;
+}
+
+.logo {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 100%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+.contact-info {
+  /* Contact Us: (+92)348-1050 */
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: right;
+
+  color: #000000;
+}
+
+.search-btn {
+  border: 1px solid #ccc;
+  background-color: #f8f9fa;
+  padding: 8px 12px;
+  border-radius: 3px;
+}
+
+.btn-primary {
+  /* Button */
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  gap: 8px;
+
+  position: relative;
+  width: 210px;
+  height: 53px;
+
+  background: #e07127;
+  border: 1px solid #e39d22;
+  border-radius: 8px;
+}
+
+.btn-outline-primary {
+  border-color: #ff6b35;
+  color: #ff6b35;
+  border-radius: 3px;
+  padding: 8px 20px;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+/* Main Navigation */
+.main-nav {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 5px 0;
+}
+
+.main-nav .navbar-nav .nav-link {
+  color: #333;
+  font-weight: 600;
+  padding: 6px 10px;
+  font-size: 11px;
+  position: relative;
+  margin: 1px;
+}
+
+.main-nav .navbar-nav .nav-link.active,
+.main-nav .navbar-nav .nav-link:hover {
+  background-color: #e0f0ff;
+  color: #007bff;
+  border-radius: 5px;
+}
+
+/* Navigation Icons */
+.nav-icons .nav-link {
+  color: #007bff;
+  padding: 6px 8px;
+}
+
+.nav-icons .nav-link svg {
+  fill: #007bff;
+}
+
+/* Hero Section */
+.hero-section {
+  padding: 60px 0;
+}
+
+.subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #e39d22;
+  margin-bottom: 40px;
+}
+
+.section-title {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 38px;
+  text-align: center;
+  color: #1976d2;
+  margin-bottom: 30px;
+  letter-spacing: -1.1px;
+}
+
+.hero-text {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #1976d2;
+  margin-bottom: 40px;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-buttons {
+  display: flex;
+
+  gap: 15px;
+  align-items: center;
+}
+
+.hero-buttons .btn {
+  width: 280px;
+  height: 45px;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.hero-buttons .btn-primary {
+  background: #e07127;
+  color: #ffffff;
+}
+
+.hero-buttons .btn-primary:hover {
+  background: #d66424;
+  color: #ffffff;
+}
+
+.hero-buttons .btn-outline-primary {
+  background: transparent;
+  border: 1px solid #e39d22;
+  color: #e39d22;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-buttons .btn-outline-primary:hover {
+  background: #e39d22;
+  color: #ffffff;
+}
+
+.hero-section .border-end {
+  border-right: 1px solid #e0e0e0 !important;
+}
+
+/* What We Do Section */
+.what-we-do-section {
+  /* background: linear-gradient(180deg, #F2F7FC 0%, #FFFFFF 100%); */
+  padding: 80px 0;
+}
+
+.what-we-do-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.what-we-do-title {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  color: #1976d2;
+  margin-bottom: 40px;
+}
+
+.what-we-do-text {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #1976d2;
+  margin-bottom: 25px;
+}
+
+.what-we-do-text:last-child {
+  margin-bottom: 0;
+}
+
+/* Showcase Section */
+.showcase-section {
+  /* background: linear-gradient(180deg, #EAF2F8 0%, #FFFFFF 100%); */
+  padding-top: 50px;
+  padding-bottom: 100px;
+  overflow-x: hidden;
+  background: linear-gradient(180deg, #ffffff 0%, #26507e 37%);
+
+  /* border: 3px solid red; */
+}
+
+.tilted-slider-section {
+  position: relative;
+  transform: rotate(-5deg);
+  margin: 0 -10%;
+  width: 120%;
+  padding: 80px 0;
+  margin-bottom: 80px;
+}
+
+.tilted-slider-container {
+  transform: rotate(3deg); /* Counter-rotate the content */
+}
+
+.slider-row {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+  animation: slideLeft 40s linear infinite;
+}
+
+.slider-row:nth-child(2) {
+  animation: slideRight 40s linear infinite;
+  margin-left: -150px;
+}
+
+.performance-section {
+  position: relative;
+  margin-top: -180px; /* Pull up slightly to reduce gap */
+  background: linear-gradient(180deg, #ffffff 0%, #26507e 87%);
+  transform: rotate(-180deg);
+}
+
+.performance-box {
+  background: #ffffff;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+  padding: 50px;
+  position: relative;
+  transform: rotate(-180deg);
+}
+
+/* Slider Animations */
+@keyframes slideLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes slideRight {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.slider-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  min-width: 280px;
+  height: 180px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  position: relative;
+  flex-shrink: 0;
+}
+
+.slider-card img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.performance-content-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 4rem;
+}
+
+.performance-title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 100%;
+  /* or 64px */
+
+  color: #26507e;
+}
+
+.performance-text {
+  /* Our Titanium is a prominent  titanium supplier of high-quality titanium products — including titanium bars, sheets, plates, and tubes — to leading manufacturers in the aerospace, medical, recreational and commercial industries. Founded in 1948, We has built a strong reputation for excellence and reliability.  */
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+
+  color: #26507e;
+}
+
+.performance-content-right {
+  border-left: 1px solid #e0e0e0;
+  padding-left: 40px;
+}
+
+.performance-subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  color: #1a1a1a;
+  margin-bottom: 25px;
+  letter-spacing: 0.5px;
+}
+
+.performance-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.grid-item {
+  text-align: center;
+}
+
+.grid-item-large {
+  grid-column: span 1;
+  text-align: center;
+}
+
+.grid-letter {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 44px;
+  line-height: 52px;
+  color: #e39d22;
+}
+
+.grid-title {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+  color: #1a1a1a;
+  margin-bottom: 4px;
+}
+
+.grid-text {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 15px;
+  color: #555555;
+}
+
+.blue-banner {
+  background: #007dbb;
+}
+
+.banner-title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+.video-placeholder {
+  border: 2px solid #ccc;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  background-color: #f8f9fa;
+}
+
+.contact-section {
+  background-color: #fff;
+  border-bottom: 1px solid #dee2e6;
+  padding: 40px 0;
+}
+
+.main-footer {
+  background-color: #002d62;
+  color: white;
+  padding: 40px 0;
+}
+
+.main-footer a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.main-footer h6 {
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.footer-bottom {
+  background-color: #002d62;
+  border-top: 1px solid #444;
+  color: white;
+  padding: 15px 0;
+  font-size: 12px;
+}
